@@ -1,0 +1,48 @@
+#display {
+    background-color: black;
+    width: 600px;
+    border: 1px solid #2a2a2a;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.off {
+    fill: #320000;
+}
+
+.on {
+    fill: red;
+}
+
+body {
+    padding-top: 20px;
+    background-color: black;
+    width: 600px;
+    margin: 0 auto;
+}
+
+button {
+    color: rgb(35, 75, 35);
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    margin: 0;
+    padding: 4;
+    font-family: monospace;
+    font-size: 36px;
+    line-height: 48px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #101010;
+}
+
+button:active {
+    background-color: black;
+}
+
+#copy {
+    float: right;
+}
