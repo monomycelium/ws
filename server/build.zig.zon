@@ -1,0 +1,14 @@
+.{
+    .name = "ws",
+    .version = "0.1.0",
+    .dependencies = .{
+        .websocket = .{
+            .url = "https://github.com/karlseguin/websocket.zig/archive/fda94dbf012783553209d384b56549dbe0367105.tar.gz",
+            .hash = "122094e9ae6ecfd78b7738308287a6a82992f9a124ae2d0231ab9e3e556d0fea2450",
+        },
+        .tm1637 = .{
+            .url = "https://github.com/monomycelium/tm1637/archive/refs/tags/v0.1-beta.0.tar.gz",
+            .hash = "1220632380422ff4c8104da3c3affbb10b40c6a122f8ec758a1144effc4bae38055e",
+        },
+    },
+}
